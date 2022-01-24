@@ -1,4 +1,4 @@
-import Link from "next/link" 
+import Link from "next/link"
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from "react-bootstrap"
 
 const Header = () => {
