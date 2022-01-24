@@ -1,16 +1,42 @@
-import Link from "next/link"
-import NextImage from "./Image"
+import Link from "next/link" 
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
 
-const Navbar = () => {
+const Header = () => {
   return (
-    <div className="flex justify-between ml-6 mr-6 mt-4">
-      <Link href="/blog">elisabeth</Link>
-      <button className="snipcart-checkout flex items-center">
-        <NextImage height="150" width="150" src="/cart.svg" alt="Cart" />
-        <span className="snipcart-total-price ml-4 font-semibold text-sm text-indigo-500"></span>
-      </button>
-    </div>
+    <Navbar inverse collapseOnSelect>
+      <Navbar.Header>
+        <Navbar.Brand>
+          <Link href="#brand">React-Bootstrap</Link>
+        </Navbar.Brand>
+        <Navbar.Toggle />
+      </Navbar.Header>
+      <Navbar.Collapse>
+        <Nav>
+          <NavItem eventKey={1} href="#">
+            Link
+          </NavItem>
+          <NavItem eventKey={2} href="#">
+            Link
+          </NavItem>
+          <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
+            <MenuItem eventKey={3.1}>Action</MenuItem>
+            <MenuItem eventKey={3.2}>Another action</MenuItem>
+            <MenuItem eventKey={3.3}>Something else here</MenuItem>
+            <MenuItem divider />
+            <MenuItem eventKey={3.3}>Separated link</MenuItem>
+          </NavDropdown>
+        </Nav>
+        <Nav pullRight>
+          <NavItem eventKey={1} href="#">
+            Link Right
+          </NavItem>
+          <NavItem eventKey={2} href="#">
+            Link Right
+          </NavItem>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   )
 }
 
-export default Navbar
+export default Header
