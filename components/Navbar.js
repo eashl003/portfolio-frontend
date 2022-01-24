@@ -1,5 +1,9 @@
 import Link from "next/link"
-import { Navbar, Nav, NavItem, NavDropdown, Dropdown } from "react-bootstrap"
+import  Navbar from "react-bootstrap"
+import  Nav from "react-bootstrap"
+import  NavItem from "react-bootstrap"
+import  NavDropdown from "react-bootstrap"
+import  Dropdown from "react-bootstrap"
 
 const Header = () => {
   return (
