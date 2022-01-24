@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from "react-bootstrap"
+import { Navbar, Nav, NavItem, NavDropdown, Dropdown } from "react-bootstrap"
 
 const Header = () => {
   return (
@@ -19,11 +19,11 @@ const Header = () => {
             Link
           </NavItem>
           <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-            <MenuItem eventKey={3.1}>Action</MenuItem>
-            <MenuItem eventKey={3.2}>Another action</MenuItem>
-            <MenuItem eventKey={3.3}>Something else here</MenuItem>
-            <MenuItem divider />
-            <MenuItem eventKey={3.3}>Separated link</MenuItem>
+            <Dropdown eventKey={3.1}>Action</Dropdown>
+            <Dropdown eventKey={3.2}>Another action</Dropdown>
+            <Dropdown eventKey={3.3}>Something else here</Dropdown>
+            <Dropdown divider />
+            <Dropdown eventKey={3.3}>Separated link</Dropdown>
           </NavDropdown>
         </Nav>
         <Nav pullRight>
