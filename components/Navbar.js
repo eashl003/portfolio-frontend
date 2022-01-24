@@ -5,15 +5,6 @@ const Navbar = () => {
   return (
     <div className="flex justify-between ml-6 mr-6 mt-4">
       <Link href="/">
-       {/* <a>
-          <NextImage
-            src="/strapi.png"
-            alt="home"
-            className="logo"
-            height="44"
-            width="150"
-          />
-       </a> */}
        elisabeth
       </Link>
       <button className="snipcart-checkout flex items-center">
