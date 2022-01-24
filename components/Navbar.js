@@ -7,7 +7,7 @@ const Navbar = () => {
       <Link href="/blog">elisabeth</Link>
       <button className="snipcart-checkout flex items-center">
         <NextImage height="150" width="150" src="/cart.svg" alt="Cart" />
-        <span className="snipcart-total-price ml-3 font-semibold text-sm text-indigo-500"></span>
+        <span className="snipcart-total-price ml-4 font-semibold text-sm text-indigo-500"></span>
       </button>
     </div>
   )
