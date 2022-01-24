@@ -1,11 +1,11 @@
 import { useRouter } from "next/router"
-import ArticlesList from "../../components/ArticlesList" 
+import ArticlesList from "../../components/ArticlesList"
 import { getBlogs, getBlog } from "../../utils/api"
 
 const BlogPage = ({ blog }) => {
   const router = useRouter()
   if (router.isFallback) {
-    return <div>Loading category...</div>
+    return <div>Loading category</div>
   }
 
   return (
