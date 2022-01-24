@@ -16,10 +16,10 @@ const ArticlesList = ({ articles }) => {
                   <span className="font-sans text-grey-dark">
                     {new Date(_article.date_created).toLocaleDateString("en")}
                   </span>
-                  <p className="text-grey-darkest">
-                    {_article.description}
+                  <p className="text-grey-darkest">{_article.description}</p>
+                  <p className="no-underline hover:underline text-blue">
+                    Continue reading
                   </p>
-                  <p className="no-underline hover:underline text-blue">Continue reading</p>
                 </div>
                 <div className="hidden lg:block lg:w-1/2 mt-2 mb-2 mr-2">
                   <NextImage media={_article.image} />
