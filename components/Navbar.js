@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between ml-6 mr-6 mt-4">
       <Link href="/">
-        <a>
+       {/* <a>
           <NextImage
             src="/strapi.png"
             alt="home"
@@ -13,7 +13,8 @@ const Navbar = () => {
             height="44"
             width="150"
           />
-        </a>
+       </a> */}
+       elisabeth
       </Link>
       <button className="snipcart-checkout flex items-center">
         <NextImage height="150" width="150" src="/cart.svg" alt="Cart" />
