@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-const Header = () => (
+const Navbar = () => (
   <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
     <div className="flex items-center flex-shrink-0 text-white mr-6">
       <span className="font-semibold text-xl tracking-tight">Test</span>
@@ -50,4 +50,4 @@ const Header = () => (
   </nav>
 )
 
-export default Header
+export default Navbar
