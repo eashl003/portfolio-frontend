@@ -11,12 +11,7 @@ const BlogPage = ({ articles }) => {
 
 export async function getStaticProps() {
   const articles = await getArticles()
-  return {
-    props: { 
-        articles 
-    },
-    revalidate: 60
-  }
+  return { props: { articles }, revalidate: 60 }
 }
 
 export default BlogPage
