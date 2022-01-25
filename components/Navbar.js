@@ -3,7 +3,7 @@ import Link from "next/link"
 import { Transition } from "@headlessui/react"
 
 function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
   return (
     <div>
       <nav className="bg-gray-800">
