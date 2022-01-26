@@ -10,20 +10,20 @@ function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <div className="flex-shrink-0">Test</div>
+              <div className="flex-shrink-0">Elisabeth</div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <Link
                     href="#"
                     className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Dashboard
+                    Blog
                   </Link>
                   <Link
                     href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Team
+                    Shop
                   </Link>
                   <Link
                     href="#"
@@ -35,13 +35,7 @@ function Navbar() {
                     href="#"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Calendar
-                  </Link>
-                  <Link
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Reports
+                    About
                   </Link>
                 </div>
               </div>
@@ -110,15 +104,15 @@ function Navbar() {
                       href="#"
                       className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                     >
-                      Dashboard
+                      Blog
                     </Link>
                   </li>
                   <li>
                     <Link
                       href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                      className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                     >
-                      Team
+                      Shop
                     </Link>
                   </li>
                   <li>
@@ -134,15 +128,7 @@ function Navbar() {
                       href="#"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                     >
-                      Calendar
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="#"
-                      className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                    >
-                      Reports
+                      About
                     </Link>
                   </li>
                 </ul>
