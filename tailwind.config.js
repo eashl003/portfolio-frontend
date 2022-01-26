@@ -15,4 +15,9 @@ module.exports = {
       teal: colors.teal,
     },
   },
+  variants: {
+    extend: {
+      padding: ["hover"],
+    },
+  },
 }
