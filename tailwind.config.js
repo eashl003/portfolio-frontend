@@ -1,23 +1,19 @@
-const colors = require("tailwindcss/colors")
+const { colors } = require(`tailwindcss/defaultTheme`);
 
 module.exports = {
   purge: ["./components/**/*.js", "./pages/**/*.js"],
   theme: {
-    colors: {
-      transparent: "transparent",
-      current: "currentColor",
-      black: colors.black,
-      white: colors.white,
-      gray: colors.gray,
-      emerald: colors.emerald,
-      indigo: colors.indigo,
-      yellow: colors.yellow,
-      teal: colors.teal,
-    },
-  },
-  variants: {
     extend: {
-      padding: ["hover"],
+      colors: {
+        primary: colors.indigo,
+      },
+      container: {
+        center: true,
+        padding: {
+          default: "1rem",
+          md: "2rem",
+        },
+      },
     },
   },
-}
+};
